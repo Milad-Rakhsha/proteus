@@ -496,7 +496,7 @@ static PyObject* superluWrappersSparseFactorPrepare(PyObject* self,
          &SFP(sparseFactor)->L,
          &SFP(sparseFactor)->U,
 	 &SFP(sparseFactor)->Glu,
-         &SFP(sparseFactor)->stat,
+         //&SFP(sparseFactor)->stat,
          &info);
   Py_INCREF(Py_None); 
   return Py_None;
